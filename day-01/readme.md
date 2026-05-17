@@ -1,5 +1,6 @@
 **1.Introduction to Linux**
 
+
 Linux is an operating system designed by Linus Torvalds. 
 iIt’s free to use and can be modified by anyone. 
 It allows you to control your computer, run applications, and accomplish different tasks.
@@ -8,11 +9,13 @@ Linux is famous for its command-line interface, which enables users to communica
 
 It means you can give instructions to the computer by typing words instead of using a graphical interface.
 
+
 **2.Why Linux?**
 
 1. It supports Multi-User & Multi-Tasking
 2. It is Open Source
 3. It is Secure
+
 
 **3.Architecture of Linux**
 
@@ -24,7 +27,11 @@ It means you can give instructions to the computer by typing words instead of us
 
 **3.4. Application:** Applications are programs that you use on your computer. They have a user-friendly interface and rely on the kernel to work properly.(Docker, Terminal, etc)
 
+
+
 **4. File System Hierarchy**
+
+
 
 / — This is top level directory
 
@@ -50,7 +57,10 @@ It means you can give instructions to the computer by typing words instead of us
 
 /media — It contains Removable devices
 
+
+
 **5. Linux Processes: How Work Gets Done**
+
 
 **A process is just a running program.**
 
@@ -58,7 +68,9 @@ It means you can give instructions to the computer by typing words instead of us
 
 **PID 1:** The very first process started when the computer turns on. It is the parent of all other processes. (In modern Linux, this is systemd).
 
+
 **The 3 Main States:**
+
 
 **Running (R):** Currently doing work on the CPU.
 
@@ -66,7 +78,9 @@ It means you can give instructions to the computer by typing words instead of us
 
 **Zombie (Z):** A dead process waiting for its parent to acknowledge it.
 
+
 **6.systemd: The Boss of the OS**
+
 
 Before **systemd**, Linux started background tasks one by one, which was painfully slow. systemd changed the game.
 
